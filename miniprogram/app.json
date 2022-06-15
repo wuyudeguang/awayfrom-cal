@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/run/run",
+    "pages/tongji/index"
+  ],
+  "tabBar": {
+    "color": "#000000",
+    "borderStyle": "white",
+    "selectedColor": "#31869B",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {"iconPath": "images/a4e8f6f2f30a5fdde40f9aecc51396a6.jpg",
+        "pagePath": "pages/index/index",
+        "text": "卡路里参考",
+        "selectedIconPath": "images/a4e8f6f2f30a5fdde40f9aecc51396a6.jpg"
+      },
+      {"iconPath": "images/5ffb1077a20553d2ab0019db2648631d.jpg",
+        "pagePath": "pages/run/run",
+         "text": "跑步",
+         "selectedIconPath": "images/5ffb1077a20553d2ab0019db2648631d.jpg"
+      },
+      {"iconPath": "/images/R-C (1).jpg",
+        "pagePath": "pages/tongji/index",
+      "text": "统计",
+      "selectedIconPath": "/images/R-C (1).jpg"
+
+      }
+     
+    ]
+  },
+
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "滚蛋吧！！卡路里",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

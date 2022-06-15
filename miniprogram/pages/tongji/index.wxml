@@ -1,0 +1,8 @@
+<view class="cover-box">
+<view class="te">您今天需要完成的总公里数为：{{car}}km</view>
+<button class="btn1" bindtap="chongzhi">我已完成 一键重置</button>
+<view class="te">已经完成的公里数为：{{kilm}}km</view>
+</view>
+
+
+

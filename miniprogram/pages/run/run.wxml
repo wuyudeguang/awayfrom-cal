@@ -1,0 +1,28 @@
+<view class="mcontainer"><map
+        class="mapView"
+   style="width: 100%;position: fixed;height: 100%;"
+        latitude="{{latitude}}"
+        longitude="{{longitude}}"
+        markers="{{markers}}"
+        covers="{{covers}}"
+        >
+        <button class="btn1" bindtap="openLocation">打开位置</button>
+    <button class="btn2" bindtap="starRun">开始跑步</button>
+    <button class="btn3" bindtap="stopRun">停止跑步</button>
+ </map>
+</view>
+<text style="font-size: 45rpx;font-weight: bold;">里程数：{{meters}}km</text>
+<text style="font-size: 45rpx;font-weight: bold;">时间：{{time}}</text>
+
+
+
+    
+  
+  
+
+
+
+
+
+
+
